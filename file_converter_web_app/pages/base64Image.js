@@ -18,7 +18,7 @@ export default function Base64Image() {
     return (
         <div className="bg-slate-400 flex flex-col justify-start text-center text-xl font-bold h-screen">
             <div className="h-60 box-border py-8">
-                <h1>Base 64 Image</h1>            
+            <p className="text-white text-4xl py-5">Base 64 Image</p>            
             </div>
             <ConverterBody setInput={handleInputData} output={output} isImageConverter={true} />
         </div>

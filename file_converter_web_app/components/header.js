@@ -17,7 +17,7 @@ export default function Header() {
                             onClick={(e) => {
                                 e.preventDefault();
                                 setOpenTab(0);
-                                router.push('/base64');
+                                router.push('/');
                             }}
                         >
                             Base 64

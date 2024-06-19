@@ -21,7 +21,7 @@ export default function Md5Converter() {
     return (
         <div className="bg-slate-400 flex flex-col justify-start text-center text-xl font-bold h-screen">
             <div className="h-60 box-border py-8">
-                <h1>Md5 Converter</h1>
+                <p className="text-white text-4xl py-5">Md5 Converter</p>
             </div>
             <ConverterBody setInput={handleInputData} output={output} />
         </div>
