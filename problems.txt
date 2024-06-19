@@ -1,0 +1,2 @@
+getStaticPaths(): ham chi duoc goi mot lan duy nhat khi build  project, cac lien ket va page khong duoc thay doi khi du lieu thay doi neu fetch len tu api.
+
